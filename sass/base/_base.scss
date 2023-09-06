@@ -1,0 +1,16 @@
+
+.wrapper {
+    height: 4000px;
+    overflow: hidden;
+    background: linear-gradient(162deg, transparent 0px 969px, $body-bg-line 971px 1656px, transparent 1658px 2347px, $body-bg-line 2349px 3031px, transparent 3033px);
+    }
+.container {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    }

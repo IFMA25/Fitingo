@@ -1,0 +1,23 @@
+.header {
+    padding: 25px 0;
+}
+.logo {
+    margin-right: 45px;
+}
+.nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav__item {
+    margin-right: 25px;
+    list-style: none;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.nav__link {
+    @include text-style(20px, $font-demi, 3.2, $title-color-1);
+    text-decoration: none;
+    text-transform: capitalize;
+}
