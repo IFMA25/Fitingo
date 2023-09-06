@@ -1,0 +1,19 @@
+.home {
+    padding: 80px 0;
+    &__container--jc{
+        justify-content: space-between;
+    }
+    &__content{
+        width: 570px * 100% /960px ;
+    }
+    &__titel {
+        @include text-style (64px, $font-bold, 1.25, $title-color-1);
+        margin-bottom: 24px;
+    }
+}
+.text {
+    @include text-style(20px, $font-demi, 1.6, $body-color);
+    margin: 0;
+    margin-bottom: 40px;
+}
+
