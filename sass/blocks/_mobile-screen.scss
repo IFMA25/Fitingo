@@ -1,13 +1,42 @@
 .mobile-screen{
     width: 300 * 100% /960 ;
     position: relative;
+    z-index: 2;
     &::before{
         position: absolute;
         width: 300px;
         height: 600px;
-        top: -41px;
-        left: -20px;
         content: '';
         background: url(../img/mobile-frame.svg) 100% 100% no-repeat;
+    }
+}
+.home{
+    &__mobile-screen{
+        top: 15px;
+        left: 8px;
+    }
+    &__mobile-screen::before{
+        top: -41px;
+        left: -20px;
+    }
+}
+.reach{
+    &__mobile-screen{
+        top: -5px;
+        left: 8px;
+    }
+    &__mobile-screen::before{
+        top: -12px;
+        left: -20px;
+    }
+}
+.start{
+    &__mobile-screen{
+        top: 0;
+        left: 8px;
+    }
+    &__mobile-screen::before{
+        top: -12px;
+        left: -20px;
     }
 }

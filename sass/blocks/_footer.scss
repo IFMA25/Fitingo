@@ -1,0 +1,17 @@
+.footer{
+    background-color: #F1F2F5;
+    padding-top: 37px;
+    padding-bottom: 35px;
+    &__container{
+        display: flex;
+    }
+    &__item{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.94;
+        margin-right: 25px;
+        color: $grey;
+    }
+}
+
