@@ -432,6 +432,9 @@ template {
   text-decoration: none;
   text-transform: capitalize;
 }
+.nav__link:hover {
+  color: #674AF2;
+}
 
 .mobile-screen {
   width: 31.25%;
