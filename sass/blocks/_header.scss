@@ -1,5 +1,9 @@
 .header {
     padding: 25px 0;
+    &__container{
+        display: flex;
+        align-items: center;
+    }
 }
 .logo {
     margin-right: 45px;
@@ -17,7 +21,11 @@
     }
 }
 .nav__link {
-    @include text-style(20px, $font-demi, 3.2, $title-color-1);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.2;
+    color: $black;
     text-decoration: none;
     text-transform: capitalize;
 }
