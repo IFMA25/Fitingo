@@ -6,7 +6,7 @@
         align-items: center;
     }
     &__content{
-        width: 510px * 100% /960px ;
+        width: 380px * 100% /920px ;
     }
     &__titel {
         font-size: 64px;
@@ -16,5 +16,11 @@
         color: $black;
         margin-bottom: 24px;
         padding-right: 20px;
+    }
+    &-page2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 120px;
     }
 }

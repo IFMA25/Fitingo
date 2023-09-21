@@ -654,7 +654,7 @@ template {
   align-items: center;
 }
 .start__content {
-  width: 53.125%;
+  width: 41.3043478261%;
 }
 .start__titel {
   font-size: 64px;
@@ -664,6 +664,12 @@ template {
   color: #000;
   margin-bottom: 24px;
   padding-right: 20px;
+}
+.start-page2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
 }
 
 .footer {
@@ -681,4 +687,100 @@ template {
   line-height: 1.94;
   margin-right: 25px;
   color: #8E9199;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 72px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+}
+
+.improve {
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+.improve__stat {
+  display: flex;
+  margin-right: -71px;
+}
+.improve__item {
+  width: calc(33.3333333333% - 71px);
+  margin-right: 71px;
+  padding-top: 35px;
+  background: url(../../img/icon-leaves.svg) no-repeat 100%/contain;
+}
+.improve__item:first-child {
+  padding-top: 22px;
+}
+.improve__item:first-child .improve__item-number {
+  font-size: 64px;
+}
+.improve__item:last-child .improve__item-number {
+  text-transform: uppercase;
+}
+.improve__item-number {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0.43;
+  color: #FFBA53;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.improve__item-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.53;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: center;
+}
+
+.offer {
+  padding-top: 48px;
+}
+
+.stage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.stage:nth-last-child(2) .stage__item-text {
+  padding-right: 80px;
+}
+.stage__img {
+  width: 311px;
+  height: 200px;
+  background: linear-gradient(244deg, #FDFEFF 11.37%, #ECF1FB 100%);
+  margin-right: 70px;
+}
+.stage__img--personalized {
+  padding: 21px 35px;
+}
+.stage__img--chat {
+  padding: 16px 42px 0 44px;
+}
+.stage__item {
+  width: 47.2826086957%;
+}
+.stage__item-titel {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.11;
+  color: #000;
+  margin-bottom: 27px;
+}
+.stage__item-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.53;
+  color: #8E9199;
+  padding-right: 45px;
 }/*# sourceMappingURL=main.css.map */
