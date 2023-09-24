@@ -1,0 +1,17 @@
+.become{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    &__content{
+        width: 540px * 100% /920px;
+        padding-right: 90px;
+    }
+    &__title{
+        margin-bottom: 32px;
+    }
+    &__text{
+        margin-bottom: 32px;
+    }
+}
