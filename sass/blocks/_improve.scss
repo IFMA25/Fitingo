@@ -2,11 +2,8 @@
     padding-top: 65px;
     padding-bottom: 40px;
     &__title{
-        width: 550px*100%/920px;
         text-align: center;
         margin-bottom: 72px;
-        margin-left: auto;
-        margin-right: auto;
     }
     &__stat{
         display: flex;
@@ -49,7 +46,8 @@
 .offer{
     &__title{
         text-align: center;
-        margin-bottom: 72px;
+        margin-bottom: 65px;
     }
     padding-top: 48px;
+    padding-bottom: 10px;
 }

@@ -1,20 +1,17 @@
 .start {
-    padding: 60px 0 140px;
+    padding: 45px 0 120px;
     &__container{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        &--about{
+            padding-bottom: 100px;
+        }
     }
     &__content{
         width: 380px * 100% /920px ;
     }
     &__titel {
         padding-right: 20px;
-    }
-    &-page2{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 120px;
     }
 }
