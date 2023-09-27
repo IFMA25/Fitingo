@@ -1,0 +1,15 @@
+.contact{
+    flex-grow: 1;
+    padding-top: 65px;
+    text-align: center;
+    &__title{
+        margin-bottom: 24px;
+        text-transform: capitalize;
+    }
+    &__text{
+        margin-bottom: 40px;
+    }
+    &__btn{
+        padding: 0 105px;
+    }
+}

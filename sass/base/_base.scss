@@ -1,6 +1,9 @@
 
 .wrapper {
     overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     }
 .container {
     width: 100%;
@@ -16,8 +19,6 @@
     font-weight: 600;
     line-height: 1.6;
     color: $grey;
-    margin: 0;
-    margin-bottom: 40px;
 }
 .title{
     font-size: 64px;
@@ -25,5 +26,4 @@
     font-weight: 700;
     line-height: 1.25;
     color: $black;
-    margin-bottom: 24px;
 }
