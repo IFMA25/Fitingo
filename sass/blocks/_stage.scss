@@ -2,12 +2,6 @@
     display: flex;
     align-items: center;
     margin-bottom: 56px;
-    &:nth-last-child(2) .stage__item-text{
-        padding-right: 85px;
-    }
-    &:nth-last-child(2) .stage__item--works .stage__item-text{
-        padding-right: 45px;
-    }
     &__img{
         width: 311px;
         height: 200px;
@@ -24,15 +18,7 @@
         }
     }
     &__item{
-        width: 539px * 100% /920px;
-        padding-right: 80px;
-        &--works{
-            padding-right: 0;
-            & .stage__item-text{
-                padding-right: 90px;
-            }
-        }
-
+        width: 515px * 100% /920px;
     }
     &__item-titel{
         font-size: 36px;
@@ -43,12 +29,12 @@
         margin-bottom: 27px;
     }
     &__item-text{
+        width: 465px * 100% /515px;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
         line-height: 1.53;
         color: $grey;
-        padding-right: 45px;
     }
 
 }

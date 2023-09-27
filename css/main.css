@@ -376,6 +376,9 @@ template {
 
 .wrapper {
   overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -393,8 +396,6 @@ template {
   font-weight: 600;
   line-height: 1.6;
   color: #8E9199;
-  margin: 0;
-  margin-bottom: 40px;
 }
 
 .title {
@@ -403,7 +404,6 @@ template {
   font-weight: 700;
   line-height: 1.25;
   color: #000;
-  margin-bottom: 24px;
 }
 
 .header {
@@ -463,11 +463,11 @@ template {
 }
 
 .reach__mobile-screen {
-  padding-top: 10px;
+  padding: 10px 17px 18px;
 }
 
 .start__mobile-screen {
-  padding-top: 13px;
+  padding-top: 11px;
 }
 
 .become__mobile-screen {
@@ -484,6 +484,12 @@ template {
 }
 .home__content {
   width: 59.375%;
+}
+.home__title {
+  margin: 0 0 24px;
+}
+.home__text {
+  margin: 0 0 40px;
 }
 
 .slide-card {
@@ -531,17 +537,14 @@ template {
   transform: skewY(-18deg);
 }
 .trainers__titel {
-  width: 32.1875%;
-  margin-bottom: 75px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
+  text-align: center;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.28;
   color: #fff;
+  margin-bottom: 75px;
 }
 .trainers__img {
   margin-left: 34px;
@@ -575,7 +578,11 @@ template {
   width: 53.125%;
 }
 .reach__titel {
+  margin: 0 0 24px;
   padding-right: 20px;
+}
+.reach__text {
+  margin: 0 0 36px;
 }
 
 .reviews {
@@ -643,7 +650,11 @@ template {
   width: 41.3043478261%;
 }
 .start__titel {
+  margin: 0 0 24px;
   padding-right: 20px;
+}
+.start__text {
+  margin: 0 0 36px;
 }
 
 .footer {
@@ -654,12 +665,27 @@ template {
 .footer__container {
   display: flex;
 }
-.footer__item {
+.footer__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer__nav-item {
+  margin-right: 25px;
+}
+.footer__nav-item:last-child {
+  margin-right: 0;
+}
+.footer__nav-link {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.94;
-  margin-right: 25px;
+  color: #8E9199;
+  text-decoration: none;
+}
+.footer__nav-link:hover {
   color: #8E9199;
 }
 
@@ -723,12 +749,6 @@ template {
   align-items: center;
   margin-bottom: 56px;
 }
-.stage:nth-last-child(2) .stage__item-text {
-  padding-right: 85px;
-}
-.stage:nth-last-child(2) .stage__item--works .stage__item-text {
-  padding-right: 45px;
-}
 .stage__img {
   width: 311px;
   height: 200px;
@@ -745,14 +765,7 @@ template {
   padding: 0 31px 0;
 }
 .stage__item {
-  width: 58.5869565217%;
-  padding-right: 80px;
-}
-.stage__item--works {
-  padding-right: 0;
-}
-.stage__item--works .stage__item-text {
-  padding-right: 90px;
+  width: 55.9782608696%;
 }
 .stage__item-titel {
   font-size: 36px;
@@ -763,12 +776,12 @@ template {
   margin-bottom: 27px;
 }
 .stage__item-text {
+  width: 90.2912621359%;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.53;
   color: #8E9199;
-  padding-right: 45px;
 }
 
 .btn {
@@ -785,6 +798,11 @@ template {
   border: none;
   padding: 0 80px;
   text-transform: capitalize;
+}
+.btn:hover {
+  color: #000;
+  background-color: rgba(103, 74, 242, 0.8784313725);
+  transition: all 0.3s ease-in;
 }
 
 .become {
@@ -819,4 +837,38 @@ template {
 }
 .works__btn {
   text-align: center;
+}
+
+.careers {
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 65px;
+}
+.careers__title {
+  margin-bottom: 24px;
+}
+.careers__text {
+  margin-bottom: 40px;
+}
+.careers__action {
+  margin-bottom: 32px;
+}
+.careers__btn {
+  padding: 0 85px;
+}
+
+.contact {
+  flex-grow: 1;
+  padding-top: 65px;
+  text-align: center;
+}
+.contact__title {
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+.contact__text {
+  margin-bottom: 40px;
+}
+.contact__btn {
+  padding: 0 105px;
 }/*# sourceMappingURL=main.css.map */

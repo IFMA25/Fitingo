@@ -12,17 +12,14 @@
         transform: skewY(-18deg);
     }
     &__titel{
-        width: 309 * 100% / 960;
-        margin-bottom: 75px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
         position: relative;
+        text-align: center;
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.28;
         color: $white;
+        margin-bottom: 75px;
     }
     &__img{
       margin-left: 34px;
@@ -35,7 +32,6 @@
         font-weight: 600;
         line-height: 1.53;
         color: $grey-dark;
-        
     }
     &__text{
         font-size: 12px;
