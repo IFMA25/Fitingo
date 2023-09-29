@@ -513,16 +513,6 @@ template {
   box-sizing: border-box;
 }
 
-.trainers__card {
-  align-items: center;
-  padding-bottom: 28px;
-  padding-top: 13px;
-}
-
-.reviews__card {
-  height: 411px;
-}
-
 .trainers {
   position: relative;
   padding-top: 40px;
@@ -565,6 +555,11 @@ template {
   font-weight: 500;
   line-height: 1.33;
   color: #424756;
+}
+.trainers__card {
+  align-items: center;
+  padding-bottom: 28px;
+  padding-top: 13px;
 }
 
 .reach {
@@ -634,6 +629,9 @@ template {
   font-weight: 500;
   line-height: 1.64;
   color: #424756;
+}
+.reviews__card {
+  height: 411px;
 }
 
 .start {
