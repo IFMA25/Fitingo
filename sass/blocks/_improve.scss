@@ -12,26 +12,21 @@
     &__item{
         width: calc(100% / 3 - 71px);
         margin-right: 71px;
-        padding-top: 35px;
         background: url(../img/icon-leaves.svg) no-repeat 100%/contain;
-        &:first-child{
-            padding-top: 22px;
-        }
-        &:first-child .improve__item-number {
-            font-size: 64px;
-        }
-        &:last-child .improve__item-number {
-            text-transform: uppercase;
-        }
     }
     &__item-number{
         font-size: 48px;
         font-style: normal;
         font-weight: 900;
-        line-height: 0.43;
+        line-height: 1.3;
         color: $orange;
-        margin-bottom: 30px;
         text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;
+        &--big{
+            font-size: 64px;
+            margin-top: 0;
+        }
     }
     &__item-text{
         font-size: 18px;
@@ -41,6 +36,12 @@
         padding-left: 45px;
         padding-right: 45px;
         text-align: center;
+        margin-top: 5px;
+        margin-bottom: -25px;
+        &--big{
+            margin-top: -5px;
+            margin-bottom: 0;
+        }
     }
 }
 .offer{

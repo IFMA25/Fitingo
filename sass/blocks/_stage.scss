@@ -5,17 +5,7 @@
     &__img{
         width: 311px;
         height: 200px;
-        background: linear-gradient(244deg, #FDFEFF 11.37%, #ECF1FB 100%);
         margin-right: 70px;
-        &--personalized{
-        padding: 21px 35px;
-        }
-        &--chat{
-            padding: 16px 42px 0 44px;
-        }
-        &--promote{
-            padding: 0 31px 0;
-        }
     }
     &__item{
         width: 515px * 100% /920px;
