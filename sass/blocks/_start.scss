@@ -1,5 +1,13 @@
 .start {
-    padding: 45px 0 120px;
+    padding: 25px 0 120px;
+    &__logo{
+        display: none;
+        width: 98px;
+        height: 98px;
+        & img{
+            border-radius: 20px;
+        }
+    }
     &__container{
         display: flex;
         justify-content: space-between;
@@ -9,7 +17,7 @@
         }
     }
     &__content{
-        width: 380px * 100% /920px ;
+        width: 410px * 100% /920px ;
     }
     &__titel {
         margin: 0 0 24px;

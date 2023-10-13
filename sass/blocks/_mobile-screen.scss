@@ -4,6 +4,8 @@
         height: 600px;
         padding: 27px 16px 18px;
         z-index: 5;
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
         &::before{
             position: absolute;
             width: 300px;
