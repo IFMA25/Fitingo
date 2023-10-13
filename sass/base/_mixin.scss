@@ -1,7 +1,12 @@
-@mixin text-style ($size, $weight, $line-height, $color) {
-    font-size: $size;
-    font-style: normal;
-    font-weight: $weight;
-    line-height: $line-height;
-    color: $color;
-}
+$maxWidth:1280;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $addMobSize: $addSize + $addSize * 0.7;
+    @media (max-width: 900px) {
+            font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 375px) / #{$maxWidth}));
+        }
+    @media (min-width: 900px) {
+            font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+        }
+    }

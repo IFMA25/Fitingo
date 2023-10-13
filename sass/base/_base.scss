@@ -1,4 +1,5 @@
-body ._lock{
+
+body._lock{
     overflow: hidden;
 }
 .wrapper {
@@ -27,7 +28,7 @@ body ._lock{
     color: $grey;
 }
 .title{
-    font-size: 64px;
+    @include adaptiv-font(64, 48);
     font-style: normal;
     font-weight: 700;
     line-height: 1.25;

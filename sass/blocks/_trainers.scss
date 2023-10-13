@@ -12,9 +12,9 @@
         transform: skewY(-18deg);
     }
     &__titel{
+        @include adaptiv-font(50, 48);
         position: relative;
         text-align: center;
-        font-size: 50px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.28;
@@ -26,6 +26,9 @@
       margin-right: 8px;
       margin-bottom: 18px;
    }
+   &__img img{
+    max-width: none;
+    }
     &__name{
         font-size: 18px;
         font-style: normal;

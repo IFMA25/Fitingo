@@ -10,6 +10,7 @@
         font-weight: 600;
         line-height: 3.2;
         color: $black;
+        text-transform: capitalize;
     }
     &__nav-footer{
         display: none;
@@ -52,7 +53,6 @@
     }
     &__link{
         text-decoration: none;
-        text-transform: capitalize;
         &:hover{
             color: $violet;
         }
@@ -108,13 +108,5 @@
 .menu-icon._open .menu-icon__item{
     top: 50%;
     transform:  rotate(45deg);
-    transition: transform 0.3s ease;
-}
-.header__nav{
-    transform: translate(100%, 0);
-    transition: transform 0.3s ease;
-}
-.header__nav._open{
-    transform: translate(0, 0);
     transition: transform 0.3s ease;
 }

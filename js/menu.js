@@ -6,9 +6,16 @@ if (menuIcon){
         document.body.classList.toggle('_lock');
         menuIcon.classList.toggle('_open');
         containerNavigation.classList.toggle('_open');
-    })
+    });
 
 }
+window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape'){
+        containerNavigation.classList.remove('_open');
+        menuIcon.classList.remove('_open');
+        document.body.classList.remove('_lock');
+    }
+});
 
 
 

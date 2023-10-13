@@ -1,11 +1,7 @@
 .slide-card{
-    width: 940px;
+    width: 100%;
     padding-bottom: 20px;
     padding-right: 20px;
-}
-.slide-card__wrapper{
-    display: flex;
-    position: relative;
 }
 .card{
     min-height: 411px;
@@ -16,4 +12,7 @@
     padding: 30px;
     box-shadow: 7px 7px 15px rgba(0,0,0,0.05), -7px 7px 15px rgba(0,0,0,0.05);
     box-sizing: border-box;
+}
+.slide-container{
+    margin-right: -20px;
 }
