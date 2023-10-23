@@ -3,12 +3,12 @@
     align-items: center;
     margin-bottom: 56px;
     &__img{
-        width: 311px;
+        max-width: 311px;
         height: 200px;
         margin-right: 70px;
     }
     &__item{
-        width: 515px * 100% /920px;
+       max-width: 515px * 100% /920px;
     }
     &__item-titel{
         font-size: 36px;
@@ -19,7 +19,7 @@
         margin-bottom: 27px;
     }
     &__item-text{
-        width: 465px * 100% /515px;
+        max-width: 368px * 100% /515px;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;

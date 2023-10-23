@@ -1,5 +1,5 @@
 $maxWidth:1280;
-
+/*-------------- Adaptiv font ------------------*/
 @mixin adaptiv-font($pcSize, $mobSize) {
     $addSize: $pcSize - $mobSize;
     $addMobSize: $addSize + $addSize * 0.7;
@@ -8,5 +8,26 @@ $maxWidth:1280;
         }
     @media (min-width: 900px) {
             font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+        }
+    }
+/*------------------- Adaptiv property ------------*/
+    $maxWidthContainer: 1280;
+    @mixin adaptiv-value($property, $startSize, $minSize, $type){
+        $addSize: $startSize - $minSize;
+//only less container
+        @if $type==1{
+            #{$property}: $startSize + px;
+            @media (max-Width: #{$maxWidthContainer + px}){
+                #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 375px) / #{$maxWidthContainer - 375}));
+            }
+//only more container
+        }@else if $type==2{
+            #{$property}: $startSize + px;
+            @media (min-Width: #{$maxWidthContainer + px}){
+                #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 375px) / #{$maxWidth - 375}));
+            }
+//always
+        } @else{
+            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 375px) / #{$maxWidth - 375}));
         }
     }
