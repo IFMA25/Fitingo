@@ -378,6 +378,7 @@ template {
 /*------------------- Adaptiv property ------------*/
 .body--lock {
   overflow: hidden;
+  position: fixed;
   height: 100%;
   width: 100%;
 }
