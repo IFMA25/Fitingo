@@ -1,5 +1,7 @@
 .body--lock{
     overflow: hidden;
+// for ios
+    position: fixed;
     height: 100%;
     width: 100%;
 }
