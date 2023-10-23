@@ -1,3 +1,12 @@
+@media(max-width: 853px){
+    .improve__item:last-child > .improve__item-number{
+        margin-top: 5px;
+    }
+    .become__content{
+        padding-right: 0;
+    }
+
+}
 @media(max-width: 800px){
     .menu-icon{
         display: block;
@@ -14,20 +23,20 @@
         }
         &__nav{
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             position: absolute;
-            top: 0;
+            top: 73px;
             left: 100%;
             content:'';
             width: 100%;
             height: 100vh;
             background-color: white;
             z-index: 50;
-            padding: 0 32px;
+            padding: 5px 32px 120px;
             transition: all 0.3s ease;
-            &._open{
+            &--open{
                 transform: translate(-100%, 0);
+                overflow-y: auto;
             }
             &-list{
                 flex-direction: column;
@@ -86,6 +95,31 @@
     }
     .start__content{
         width: 48%;
+    }
+    .improve__stat{
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: calc(40px + (110 - 40) * ((100vw - 662px) / (960 - 662)));
+        row-gap: 40px;
+        margin-right: 0;
+    }
+    .improve__item{
+        min-height: 136px;
+        width: 40%;
+        background: url(../img/icon-leaves.svg) no-repeat 50%/contain;
+        margin-right: 0;
+    }
+    .stage__item-text{
+        max-width: 90%;
+    }
+    .stage__img{
+        margin-right: 40px;
+    }
+    .become{
+        grid-column-gap: 0;
+    }
+    .become__mobile-screen {
+        padding: 10px 13px 15px;
     }
 }
 
@@ -162,9 +196,11 @@
     }
     .slide-container{
         margin-right: -32px;
+        margin-left: -32px;
     }
     .slide-card{
         padding-right: 32px;
+        padding-left: 32px;
     }
     .reach{
         padding-top: 5px;
@@ -229,6 +265,8 @@
         &__logo{
             display: block;
             margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     .footer{
@@ -237,7 +275,7 @@
         &__container{
         justify-content: center;
         }
-        &__list{
+        &__nav-list{
             flex-direction: column;
             align-items: center;
         }
@@ -247,5 +285,128 @@
         &__nav-link{
             line-height: 3.3333;
         }
+    }
+    .improve{
+        padding-top: 0;
+    }
+    .improve__stat{
+        column-gap: 0;
+        row-gap: 40px;
+    }
+    .improve__item{
+        width: 100%;
+    }
+    .offer{
+        padding-bottom: 20px;
+    }
+    .offer__title{
+        margin-bottom: 41px;
+    }
+    .stage{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .stage__img{
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    .stage__item{
+        max-width: 311px;
+        text-align: center;
+    }
+    .stage__item-titel{
+        margin-bottom: 20px;
+    }
+    .stage__item-text{
+        max-width: none;
+    }
+    .start{
+        padding-top: 30px;
+    }
+    .become{
+        justify-items: center;
+        grid-row-gap: 40px;
+        padding-top: 5px;
+        &__title{
+            grid-column: 1/-1;
+            grid-row: 1/2;
+            align-self: end;
+        }
+        &__text{
+            max-width: 460px;
+            grid-column: 1/-1;
+            grid-row: 3/4;
+            text-align: center;
+            color: $grey-dark;
+        }
+        &__btn{
+            grid-column: 1/-1;
+            grid-row: 4/-1;
+        }
+        &__mobile-screen{
+            grid-column: 1/-1;
+            grid-row: 2/3;
+        }
+    }
+    .works{
+        padding-top: 85px;
+        padding-bottom: 92px;
+        &__title{
+            margin-bottom: 40px;
+        }
+        &__stage{
+            padding-bottom: 30px;
+        }
+    }
+    .careers{
+        &__title{
+            margin-bottom: 40px;
+        }
+        &__text{
+            color: $grey-dark;
+            margin-bottom: 32px;
+        }
+        &__action{
+            margin-bottom: 40px;
+        }
+    }
+    .contact{
+        padding-top: 5px;
+        &__title{
+            margin-bottom: 40px;
+        }
+        &__text{
+            margin-bottom: 32px;
+        }
+    }
+}
+@media (max-width:380px){
+    .card{
+        max-width: 240px;
+    }
+    .offer__title{
+        width: calc(190px + 130 * ((100vw - 320px) / 905));
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .start{
+        padding-top: 75px;
+    }
+}
+@media (max-width:374px){
+    .title{
+        font-size: 44px;
+    }
+    .trainers__titel{
+        font-size: 43px;
+    }
+    .improve__title{
+        width: calc(256px + 64 * ((100vw - 320px) / 905));
+    }
+    .careers__btn {
+        padding: 0 57px;
+    }
+    .contact__btn {
+        padding: 0 77px;
     }
 }
