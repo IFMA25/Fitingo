@@ -287,16 +287,20 @@
         }
     }
     .improve{
-        padding-top: 0;
+        padding-top: 5px;
     }
     .improve__stat{
         column-gap: 0;
-        row-gap: 40px;
+        row-gap: 45px;
     }
     .improve__item{
         width: 100%;
     }
+    .improve__title{
+        margin-bottom: 52px;
+    }
     .offer{
+        padding-top: 40px;
         padding-bottom: 20px;
     }
     .offer__title{
@@ -315,10 +319,14 @@
         text-align: center;
     }
     .stage__item-titel{
+        max-width: 90%;
         margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .stage__item-text{
-        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
     }
     .start{
         padding-top: 30px;
@@ -339,7 +347,7 @@
             text-align: center;
             color: $grey-dark;
         }
-        &__btn{
+        &__action{
             grid-column: 1/-1;
             grid-row: 4/-1;
         }
@@ -377,6 +385,7 @@
         }
         &__text{
             margin-bottom: 32px;
+            color: $grey-dark;
         }
     }
 }
