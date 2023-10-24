@@ -10,11 +10,10 @@
     background-color: $violet;
     text-decoration: none;
     border: none;
-    padding: 0 80px;
     text-transform: capitalize;
     &:hover{
         color: $black;
         background-color: #674AF2e0;
         transition: all 0.3s ease-in;
-    }
+        }
     }
