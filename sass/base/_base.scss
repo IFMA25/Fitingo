@@ -33,7 +33,7 @@
     color: $grey;
 }
 .title{
-    @include adaptiv-font(64, 48);
+    @include adaptiv-value('font-size', 64, 48, 1);
     font-style: normal;
     font-weight: 700;
     line-height: 1.25;

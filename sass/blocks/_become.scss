@@ -1,7 +1,7 @@
 .become{
     display: grid;
     grid-template: repeat(3, auto) /  1fr 297px;
-    @include adaptiv-value("grid-column-gap", 153, 0, 0);
+    @include adaptiv-value("grid-column-gap", 153, 0, 1);
     grid-row-gap: 30px;
     &__content{
         width: 540px * 100% /920px;
