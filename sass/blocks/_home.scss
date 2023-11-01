@@ -4,7 +4,7 @@
     &__container{
         display: grid;
         grid-template: repeat(3, auto) /  1fr 297px;
-       /* grid-template: minmax(265px, auto) minmax(105px, auto) 170px /  1fr 297px;*/
+       // grid-template: minmax(265px, auto) minmax(105px, auto) 170px /  1fr 297px;
         grid-column-gap: 53px;
         grid-row-gap: 30px;
     }
