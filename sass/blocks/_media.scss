@@ -29,10 +29,10 @@
             left: 100%;
             content:'';
             width: 100%;
-            height: 100vh;
+            height: calc(100vh - 73px);
             background-color: white;
             z-index: 50;
-            padding: 5px 32px 120px;
+            padding: 5px 32px;
             transition: all 0.3s ease;
             &--open{
                 transform: translate(-100%, 0);
@@ -299,6 +299,9 @@
     .improve__title{
         margin-bottom: 52px;
     }
+    .improve__title br{
+        display: none;
+    }
     .offer{
         padding-top: 40px;
         padding-bottom: 20px;
@@ -393,10 +396,8 @@
     .card{
         max-width: 240px;
     }
-    .offer__title{
-        width: calc(190px + 130 * ((100vw - 320px) / 905));
-        margin-left: auto;
-        margin-right: auto;
+    .offer__title br{
+        display: block;
     }
     .start{
         padding-top: 75px;
