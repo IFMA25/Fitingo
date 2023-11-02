@@ -1054,10 +1054,10 @@ template {
     top: 118px;
     left: 100%;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 118px);
     background-color: white;
     z-index: 50;
-    padding: 5px 32px 118px;
+    padding: 5px 32px;
     transition: all 0.3s ease;
   }
   .header__nav--open {
