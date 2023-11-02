@@ -1055,7 +1055,7 @@ template {
     left: 100%;
     content: "";
     width: 100%;
-    height: calc(100vh - 115px);
+    height: calc(100vh - 108px);
     background-color: white;
     z-index: 50;
     padding: 5px 32px;
