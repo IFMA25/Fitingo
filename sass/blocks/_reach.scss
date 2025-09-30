@@ -1,0 +1,19 @@
+.reach {
+    padding: 50px 0;
+    &__container{
+        display: grid;
+        grid-template: repeat(3, auto) /  1fr 297px;
+        grid-column-gap: 53px;
+        grid-row-gap: 30px;
+    }
+    &__titel {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        align-self: end;
+        margin-top: 40px;
+    }
+    &__text{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+}

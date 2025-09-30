@@ -1,0 +1,29 @@
+.footer{
+    background-color: #F1F2F5;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    &__nav-list{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__nav-item{
+        margin-right: 25px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__nav-link{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.94;
+        color: $grey;
+        text-decoration: none;
+        &:hover{
+            color: $grey;
+        }
+    }
+}
+

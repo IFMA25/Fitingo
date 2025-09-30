@@ -1,0 +1,34 @@
+.mobile-screen{
+        position: relative;
+        width: 300px;
+        height: 600px;
+        padding: 27px 16px 18px;
+        z-index: 5;
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+        &::before{
+            position: absolute;
+            width: 300px;
+            height: 600px;
+            top: 0;
+            left: 0;
+            content: '';
+            background: url(../img/mobile-frame.svg) 100% 100% no-repeat;
+        }
+}
+.reach{
+    &__mobile-screen{
+        padding: 10px 17px 18px;
+    }
+}
+.start{
+    &__mobile-screen{
+        padding-top: 11px;
+    }
+}
+.become{
+    &__mobile-screen{
+        padding: 15px 18px 18px;
+    }
+}
+

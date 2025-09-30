@@ -1,0 +1,18 @@
+.works{
+    padding-top: 45px;
+    padding-bottom: 125px;
+    &__stage{
+        padding-bottom: 45px;
+    }
+    &__title{
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    &__action{
+        text-align: center;
+    }
+    &__btn{
+        padding: 0 97px;
+    }
+}

@@ -1,0 +1,30 @@
+.stage{
+    display: flex;
+    align-items: center;
+    margin-bottom: 56px;
+    &__img{
+        max-width: 311px;
+        height: 200px;
+        margin-right: 70px;
+    }
+    &__item{
+       max-width: 515px * 100% /920px;
+    }
+    &__item-titel{
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.11;
+        color: $black;
+        margin-bottom: 27px;
+    }
+    &__item-text{
+        max-width: 368px * 100% /515px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.53;
+        color: $grey;
+    }
+
+}
